@@ -59,3 +59,8 @@ svg {
 a {
   display: block;
 }
+
+a:hover {
+  color: #ff9500;
+  background-color: #fff;
+}
