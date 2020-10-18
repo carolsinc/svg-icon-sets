@@ -64,3 +64,92 @@ a:hover {
   color: #ff9500;
   background-color: #fff;
 }
+
+@media only screen and (min-width: 38em) {
+
+  section {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "section section section";
+    column-gap: 2rem;
+    margin-left: .8rem;
+  }
+
+  header {
+    display: grid;
+    grid-column: 1/span 3;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bubble {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .dome {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .stilt {
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0;
+    padding-top: .8rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: .8rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  h2{
+    margin: 2em;
+  }
+
+  h3 {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .btn {
+    margin-left: 4rem;
+    margin-right: 6rem;
+    margin-bottom: 4rem;
+  }
+
+  section {
+    margin-right: .8rem;
+  }
+
+  div {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    align-content: center;
+  }
+}
