@@ -16,21 +16,46 @@ body {
   background-image: -webkit-linear-gradient(#ff9500, #ff5e3a);
   background-image: -o-linear-gradient(#ff9500, #ff5e3a);
   background-image: linear-gradient(#ff9500, #ff5e3a);
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 
-h1, h2, h3 {
+h2, h3, p {
   color: #fff;
+}
+
+h2 {
+  margin: 1.2rem;
+  font-size: 2rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+div {
+  margin: 1.5rem;
 }
 
 .icon svg {
   fill: #fff;
   stroke: #ff9500;
+  height: 8rem;
+  width: 100%;
+}
+
+svg {
+  display: block;
+  margin: auto;
 }
 
 .btn {
   text-decoration: none;
   color: #fff;
   border: .2rem solid #fff;
-  padding: 1.5rem;
-  margin: 1.5rem;
+  padding: 1rem;
+}
+
+a {
+  display: block;
 }
