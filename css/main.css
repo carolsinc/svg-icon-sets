@@ -10,3 +10,27 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  background-image: -webkit-linear-gradient(#ff9500, #ff5e3a);
+  background-image: -o-linear-gradient(#ff9500, #ff5e3a);
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+.icon svg {
+  fill: #fff;
+  stroke: #ff9500;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  border: .2rem solid #fff;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
